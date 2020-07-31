@@ -1,6 +1,6 @@
 # Simple Quiz App built with HTML, CSS and JavaScript
 
-![Home Screen](header.jpg)
+![Home Screen](./images/header.jpg)
 
 What I've learned::
 
