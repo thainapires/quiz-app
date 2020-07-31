@@ -8,7 +8,7 @@
 }
 
 .choice-container:hover{
-    cursor: ponter;
+    cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
@@ -22,4 +22,5 @@
 
 .choice-text{
     padding: 1.5rem;
+    width: 100%;
 }
