@@ -23,6 +23,7 @@
 .choice-text{
     padding: 1.5rem;
     width: 100%;
+    color:#04004c;
 }
 
 .correct{
@@ -51,16 +52,27 @@
 #progressBar{
     width:20rem;
     height: 4rem;
-    border: 0.3rem solid #56a5eb;
+    border: 0.3rem solid #eef9ff;
     margin-top: 1.5rem;
 }
 
 #progressBarFull{
     height: 3.4rem;
-    background-color: #56a5eb;
+    background-color: #42d35e;
     width: 0%;
 }
 
+#progressText{
+    color:#eef9ff;
+}
+
+#scoreText{
+    color: #eef9ff;
+}
+
+#score{
+    color: #1a1672;
+}
 /* LOADER */
 #loader {
     border: 1rem solid white;

@@ -5,10 +5,15 @@
 }
 
 .high-score{
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
+    color: #eef9ff;
 }
 
 .high-score:hover{
     transform: scale(1.025);
+}
+
+#finalScore{
+    color: white;
 }

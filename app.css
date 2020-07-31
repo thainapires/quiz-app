@@ -1,5 +1,6 @@
 :root {
-  background-color: #ecf5ff;
+  background-image: url(background-quiz.jpg);
+  background-size: 350px 350px;
   font-size: 62.5%;
 }
 
@@ -30,9 +31,10 @@ h1 > span {
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 3rem;
   margin-bottom: 4rem;
   font-weight: 700;
+  color: #eef9ff;
 }
 
 h3 {
@@ -85,10 +87,12 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  box-shadow: 3px 5px #346693;
+  border-radius: 25px;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #4090cc;
+  font-weight: bold;
   background-color: white;
 }
 
@@ -125,4 +129,9 @@ input {
 
 input::placeholder {
   color: #aaa;
+}
+
+@font-face {
+  font-family: helsinki;
+  src: url(helsinki.ttf);
 }
